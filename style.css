@@ -36,3 +36,8 @@ button.log_button:hover{
    border-bottom: 1px solid green !important;
    box-shadow: 0 1px 0 0 green !important;
   }
+  .nav-extended{
+     background-color: green;
+   
+  }
+  
