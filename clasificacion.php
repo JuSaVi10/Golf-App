@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="es">
 <head>
     <head>
         <!-- Compiled and minified CSS -->
@@ -33,9 +33,11 @@
         </div>
         <div class="nav-content">
           <ul class="tabs tabs-transparent">
-            <li class="tab"><a href="index.html">Test 1</a></li>
-            <li class="tab"><a class="active" href="#">Test 2</a></li>
-            <li class="tab"><a href="#test4">Test 3</a></li>
+            <li class="tab"><a href="index.html">Mi Perfil</a></li>
+            <li class="tab"><a class="active" href="#">Clasificación</a></li>
+            <li class="tab"><a href="#">Torneos</a></li>
+            <li class="tab"><a href="#">Mapa</a></li>
+
           </ul>
         </div>
       </nav>
@@ -46,9 +48,9 @@
         <li><a href="collapsible.html">JavaScript</a></li>
       </ul>
     
-      <div id="test1" class="col s12">Test 1</div>
-      <div id="test2" class="col s12">Test 2</div>
-      <div id="test3" class="col s12">Test 3</div>
-      <div id="test4" class="col s12">Test 4</div>
+      <?php
+      include('content-classification.php')
+      ?>
+            
 </body>
 </html>
