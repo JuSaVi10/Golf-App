@@ -1,0 +1,38 @@
+#logo{
+   display: block;
+   margin: auto;
+}
+#boton_reg{
+   display: block;
+   margin: auto;
+}
+#botones{
+   display: block;
+   margin:auto;
+}
+#registro{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.send_button{
+   background-color: green;
+}
+button.send_button:hover{
+   background-color: rgb(15, 56, 15);
+}
+.log_button{
+   background-color: green;
+}
+button.log_button:hover{
+   background-color: rgb(15, 56, 15);
+}
+.input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+   color: green !important;
+  }
+
+/* label underline focus color */
+  .input-field input:focus, .materialize-textarea:focus:not([readonly]) {
+   border-bottom: 1px solid green !important;
+   box-shadow: 0 1px 0 0 green !important;
+  }
